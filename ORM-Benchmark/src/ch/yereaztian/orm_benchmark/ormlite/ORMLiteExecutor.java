@@ -1,6 +1,6 @@
-package com.littleinc.orm_benchmark.ormlite;
+package ch.yereaztian.orm_benchmark.ormlite;
 
-import static com.littleinc.orm_benchmark.util.Util.getRandomString;
+import static ch.yereaztian.orm_benchmark.util.Util.getRandomString;
 
 import java.sql.SQLException;
 import java.util.LinkedList;
@@ -10,11 +10,12 @@ import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
 import android.util.Log;
 
+import ch.yereaztian.orm_benchmark.BenchmarkExecutable;
+import ch.yereaztian.orm_benchmark.util.Util;
+
 import com.j256.ormlite.stmt.SelectArg;
 import com.j256.ormlite.support.ConnectionSource;
 import com.j256.ormlite.table.TableUtils;
-import com.littleinc.orm_benchmark.BenchmarkExecutable;
-import com.littleinc.orm_benchmark.util.Util;
 
 public enum ORMLiteExecutor implements BenchmarkExecutable {
 

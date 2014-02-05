@@ -1,4 +1,4 @@
-package com.littleinc.orm_benchmark.util;
+package ch.yereaztian.orm_benchmark.util;
 
 import java.util.Random;
 import java.util.concurrent.TimeUnit;

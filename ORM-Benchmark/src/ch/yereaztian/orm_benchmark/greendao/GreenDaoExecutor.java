@@ -1,6 +1,6 @@
-package com.littleinc.orm_benchmark.greendao;
+package ch.yereaztian.orm_benchmark.greendao;
 
-import static com.littleinc.orm_benchmark.util.Util.getRandomString;
+import static ch.yereaztian.orm_benchmark.util.Util.getRandomString;
 
 import java.sql.SQLException;
 import java.util.LinkedList;
@@ -9,9 +9,10 @@ import java.util.List;
 import android.content.Context;
 import android.util.Log;
 
-import com.littleinc.orm_benchmark.BenchmarkExecutable;
-import com.littleinc.orm_benchmark.greendao.MessageDao.Properties;
-import com.littleinc.orm_benchmark.util.Util;
+import ch.yereaztian.orm_benchmark.BenchmarkExecutable;
+import ch.yereaztian.orm_benchmark.greendao.MessageDao.Properties;
+import ch.yereaztian.orm_benchmark.util.Util;
+
 
 public enum GreenDaoExecutor implements BenchmarkExecutable {
 

@@ -1,4 +1,4 @@
-package com.littleinc.orm_benchmark.sqlite;
+package ch.yereaztian.orm_benchmark.sqlite;
 
 import java.util.List;
 

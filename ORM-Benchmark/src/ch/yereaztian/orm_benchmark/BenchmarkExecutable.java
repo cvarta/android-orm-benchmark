@@ -1,4 +1,4 @@
-package com.littleinc.orm_benchmark;
+package ch.yereaztian.orm_benchmark;
 
 import java.sql.SQLException;
 

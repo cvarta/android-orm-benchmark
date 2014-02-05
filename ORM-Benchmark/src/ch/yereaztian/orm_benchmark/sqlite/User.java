@@ -1,4 +1,4 @@
-package com.littleinc.orm_benchmark.sqlite;
+package ch.yereaztian.orm_benchmark.sqlite;
 
 import android.content.ContentValues;
 import android.database.sqlite.SQLiteDatabase;

@@ -1,8 +1,9 @@
-package com.littleinc.orm_benchmark;
+package ch.yereaztian.orm_benchmark;
 
-import com.littleinc.orm_benchmark.greendao.GreenDaoExecutor;
-import com.littleinc.orm_benchmark.ormlite.ORMLiteExecutor;
-import com.littleinc.orm_benchmark.sqlite.SQLiteExecutor;
+import ch.yereaztian.orm_benchmark.greendao.GreenDaoExecutor;
+import ch.yereaztian.orm_benchmark.ormlite.ORMLiteExecutor;
+import ch.yereaztian.orm_benchmark.sqlite.SQLiteExecutor;
+
 
 public class Application extends android.app.Application {
 

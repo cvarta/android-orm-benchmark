@@ -1,10 +1,10 @@
-package com.littleinc.orm_benchmark.greendao;
+package ch.yereaztian.orm_benchmark.greendao;
 
 import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteDatabase.CursorFactory;
 
-import com.littleinc.orm_benchmark.greendao.DaoMaster.DevOpenHelper;
+import ch.yereaztian.orm_benchmark.greendao.DaoMaster.DevOpenHelper;
 
 public class DataBaseHelper extends DevOpenHelper {
 

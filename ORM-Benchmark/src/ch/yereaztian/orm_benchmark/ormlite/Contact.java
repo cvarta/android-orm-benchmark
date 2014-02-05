@@ -1,4 +1,4 @@
-package com.littleinc.orm_benchmark.ormlite;
+package ch.yereaztian.orm_benchmark.ormlite;
 
 import android.provider.BaseColumns;
 

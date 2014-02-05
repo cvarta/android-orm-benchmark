@@ -1,6 +1,6 @@
-package com.littleinc.orm_benchmark.sqlite;
+package ch.yereaztian.orm_benchmark.sqlite;
 
-import static com.littleinc.orm_benchmark.util.Util.getRandomString;
+import static ch.yereaztian.orm_benchmark.util.Util.getRandomString;
 
 import java.sql.SQLException;
 import java.util.LinkedList;
@@ -11,8 +11,9 @@ import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.util.Log;
 
-import com.littleinc.orm_benchmark.BenchmarkExecutable;
-import com.littleinc.orm_benchmark.util.Util;
+import ch.yereaztian.orm_benchmark.BenchmarkExecutable;
+import ch.yereaztian.orm_benchmark.util.Util;
+
 
 public enum SQLiteExecutor implements BenchmarkExecutable {
 

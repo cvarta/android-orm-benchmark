@@ -1,8 +1,9 @@
-package com.littleinc.orm_benchmark.ormlite.config;
+package ch.yereaztian.orm_benchmark.ormlite.config;
+
+import ch.yereaztian.orm_benchmark.ormlite.Message;
+import ch.yereaztian.orm_benchmark.ormlite.User;
 
 import com.j256.ormlite.android.apptools.OrmLiteConfigUtil;
-import com.littleinc.orm_benchmark.ormlite.Message;
-import com.littleinc.orm_benchmark.ormlite.User;
 
 public class DBConfigUtil extends OrmLiteConfigUtil {
 
