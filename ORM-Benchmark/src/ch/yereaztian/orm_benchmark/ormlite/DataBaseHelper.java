@@ -5,7 +5,8 @@ import android.database.sqlite.SQLiteDatabase;
 
 import com.j256.ormlite.android.apptools.OrmLiteSqliteOpenHelper;
 import com.j256.ormlite.support.ConnectionSource;
-import com.littleinc.orm_benchmark.R;
+
+import ch.yereaztian.orm_benchmark.R;
 
 public class DataBaseHelper extends OrmLiteSqliteOpenHelper {
 
@@ -28,8 +29,9 @@ public class DataBaseHelper extends OrmLiteSqliteOpenHelper {
     }
 
     private DataBaseHelper(Context context, boolean isInMemory) {
-        super(context, (isInMemory ? null : DB_NAME), null, DB_VERSION,
-                R.raw.ormlite_config);
+        /*super(context, (isInMemory ? null : DB_NAME), null, DB_VERSION,
+                R.raw.ormlite_config)*/
+        super(context, (isInMemory ? null : DB_NAME), null, DB_VERSION);
     }
 
     @Override

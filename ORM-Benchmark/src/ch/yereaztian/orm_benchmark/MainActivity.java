@@ -33,7 +33,7 @@ import ch.yereaztian.orm_benchmark.ormlite.ORMLiteExecutor;
 import ch.yereaztian.orm_benchmark.sqlite.SQLiteExecutor;
 import ch.yereaztian.orm_benchmark.util.Util;
 
-import com.littleinc.orm_benchmark.R;
+import ch.yereaztian.orm_benchmark.R;
 
 public class MainActivity extends FragmentActivity {
 
@@ -58,6 +58,10 @@ public class MainActivity extends FragmentActivity {
 
         mGlobalResults = new SparseArray<Map<Task, List<Long>>>();
         mShowResultsBtn = (Button) findViewById(R.id.show_results_btn);
+        
+        if (mCount < NUM_ITERATIONS) {
+        	mShowResultsBtn.setEnabled(false);
+        }
     }
 
     public void showGlobalResults(View v) {

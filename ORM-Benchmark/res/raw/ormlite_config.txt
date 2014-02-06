@@ -2,7 +2,7 @@
 # generated on 2013/12/11 11:26:52
 #
 # --table-start--
-dataClass=com.littleinc.orm_benchmark.ormlite.User
+dataClass=ch.yereaztian.orm_benchmark.ormlite.User
 tableName=user
 # --table-fields-start--
 # --field-start--
@@ -31,7 +31,7 @@ dataPersister=STRING
 # --table-end--
 #################################
 # --table-start--
-dataClass=com.littleinc.orm_benchmark.ormlite.Message
+dataClass=ch.yereaztian.orm_benchmark.ormlite.Message
 tableName=message
 # --table-fields-start--
 # --field-start--
